@@ -1,0 +1,8 @@
+# Copyright (c) 2025 Aviciileeee<lx_ashin@aliyun.com>
+#
+# This software is released under the MIT License.
+# https://opensource.org/licenses/MIT
+
+
+server:
+  port: 3001
