@@ -6,3 +6,7 @@
 
 server:
   port: 3001
+
+application:
+  log: true
+  name: 'nest-starter'
