@@ -1,4 +1,4 @@
-import { Controller, Get } from '@nestjs/common';
+import { Controller, Get, Version } from '@nestjs/common';
 import { ConfigService } from '@nestjs/config';
 
 @Controller()
@@ -8,5 +8,11 @@ export class AppController {
   @Get()
   getHello(): string {
     return 'hello';
+  }
+
+  @Get()
+  @Version('2')
+  getHello2(): string {
+    return 'hello2';
   }
 }

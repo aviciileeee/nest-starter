@@ -8,5 +8,5 @@ server:
   port: 3001
 
 application:
-  log: true
+  log: false
   name: 'nest-starter'
